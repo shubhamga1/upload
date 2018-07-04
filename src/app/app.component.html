@@ -1,0 +1,56 @@
+<div style="text-align:center">
+  <h1 align="center">
+    Welcome to {{ title }}!
+  </h1>
+
+  <app-test></app-test>
+  <body>
+  <img width="300" src="assets/img/logo.jpeg" align="left">
+
+  <form action="/action_page.php">
+    <label for="customer id">Customer ID</label>&nbsp;
+    <input type="text" ng-model="customer id" name="customer id" required>&nbsp;
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="agent id">Agent ID</label>&nbsp;
+    <input type="text" ng-model="agent id" name="agent id">&nbsp;
+    <br>
+    <br>
+    <input list="Identity" name="Identity" placeholder="Select Identity">
+    <datalist id="Identity">
+      <option value="Adhaar Card">
+      <option value="Passport">
+      <option value="Pan card">
+    </datalist>&nbsp;
+    <input type="text" ng-model="choice.name" name="" placeholder="Enter Identity number">&nbsp;
+    <input type="file" name="pic" accept="image/*,text/*,.pdf,.doc,.docx" multiple required><br>
+    <br>
+    <br>
+    <input list="Identity" name="Identity" placeholder="Select Identity">
+    <datalist id="Identity">
+      <option value="Adhaar Card">
+      <option value="Passport">
+      <option value="Pan card">
+    </datalist>&nbsp;
+    <input type="text" ng-model="choice.name" name="" placeholder="Enter Identity number">&nbsp;
+    <input type="file" name="pic" accept="image/*,text/*,.pdf,.doc,.docx" multiple required><br>
+    <br>
+    <br>
+    <input list="Identity" name="Identity" placeholder="Select Identity">
+    <datalist id="Identity">
+      <option value="Adhaar Card">
+      <option value="Passport">
+      <option value="Pan card">
+    </datalist>&nbsp;
+    <input type="text" ng-model="choice.name" name="" placeholder="Enter Identity number">&nbsp;
+    <input type="file" name="pic" maxlength=50 accept="image/*,text/*,.pdf,.doc,.docx" multiple required><br>
+    <br>
+    <br>
+    <input type="submit">
+  </form>
+
+  </body>
+</div>
+
+
+
